@@ -1,7 +1,11 @@
 ## Hi there
-👋 :mask:
+<img align="left" alt="Waving" width="36px" src="https://cdn.icon-icons.com/icons2/1465/PNG/512/384wavinghand2_100598.png" />
+<img align="left" alt="Mask-Covid19" width="36px" src="https://cdn.icon-icons.com/icons2/2252/PNG/512/avatar_man_health_mask_disease_icon_140104.png" />
 
-## Languages : 
+<br/>
+<br/>
+
+## Languages
 <img align="left" alt="Python" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/python_94570.png" />
 <img align="left" alt="C++" width="32px" src="https://img.icons8.com/color/452/c-plus-plus-logo.png" />
 <img align="left" alt="Java" width="32px" src="https://cdn.icon-icons.com/icons2/81/PNG/256/java_15498.png" />
@@ -12,7 +16,7 @@
 <br/>
 <br/>
 
-## Databases :
+## Databases
 <img align="left" alt="Postgresql" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/postgresql_logo_icon_170835.png" />
 <img align="left" alt="MySql" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png" />
 <img align="left" alt="Oracle" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/oracle_logo_icon_168918.png" />
@@ -22,16 +26,7 @@
 <br/>
 <br/>
 
-## Operating Systems : 
+## Operating Systems
 <img align="left" alt="Windows" width="32px" src="https://cdn.icon-icons.com/icons2/673/PNG/512/windows_icon-icons.com_60494.png" />
 <img align="left" alt="Linux" width="32px" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/linux_original_logo_icon_146433.png" />
 <img align="left" alt="RaspberryPI" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/raspberry_pi_icon_130847.png" />
-
-
-
-
-
-
-
-
-
