@@ -9,8 +9,9 @@
 <img align="left" alt="Python" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/python_94570.png" />
 <img align="left" alt="C++" width="32px" src="https://img.icons8.com/color/452/c-plus-plus-logo.png" />
 <img align="left" alt="Java" width="32px" src="https://cdn.icon-icons.com/icons2/81/PNG/256/java_15498.png" />
-<img align="left" alt="JavaScript" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" />
 <img align="left" alt="QT5" width="32px" src="https://cdn.icon-icons.com/icons2/159/PNG/256/qtconfig_qt4_qt_22393.png" />
+<img align="left" alt="JavaScript" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" />
+<img align="left" alt="Html" width="32px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
 <img align="left" alt="Shell" width="32px" src="https://cdn.icon-icons.com/icons2/39/PNG/128/terminal_Shell_6007.png" />
 
 <br/>
