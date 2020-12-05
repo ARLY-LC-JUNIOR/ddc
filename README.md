@@ -1,4 +1,4 @@
-## Hi there 👋 :mask:
+##  👋 :mask:
 
 ## Languages : 
 <img align="left" alt="Python" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/python_94570.png" />
