@@ -29,4 +29,5 @@
 ## Operating Systems
 <img align="left" alt="Windows" width="32px" src="https://cdn.icon-icons.com/icons2/673/PNG/512/windows_icon-icons.com_60494.png" />
 <img align="left" alt="Linux" width="32px" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/linux_original_logo_icon_146433.png" />
+<img align="left" alt="BSD" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Daemon-phk.svg/220px-Daemon-phk.svg.png" />
 <img align="left" alt="RaspberryPI" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/raspberry_pi_icon_130847.png" />
