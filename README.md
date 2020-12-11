@@ -4,7 +4,7 @@
     <img align="left" alt="Waving" width="36px" src="https://cdn.icon-icons.com/icons2/1465/PNG/512/384wavinghand2_100598.png" />
     <img align="left" alt="Mask-Covid19" width="36px" src="https://cdn.icon-icons.com/icons2/2252/PNG/512/avatar_man_health_mask_disease_icon_140104.png" />
 <div/>
-    
+
 <br/>
 <br/>
 
@@ -17,7 +17,7 @@
     <img align="left" alt="Html" width="32px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
     <img align="left" alt="Shell" width="32px" src="https://cdn.icon-icons.com/icons2/39/PNG/128/terminal_Shell_6007.png" />
 <div/>
-  
+
 <br/>
 <br/>
 
@@ -49,4 +49,3 @@
     <img align="left" alt="BSD" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Daemon-phk.svg/220px-Daemon-phk.svg.png" />
     <img align="left" alt="RaspberryPI" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/raspberry_pi_icon_130847.png" />
 <div/>
-  
