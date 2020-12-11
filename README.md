@@ -5,7 +5,7 @@
 <br/>
 <br/>
 
-## 
+
 <img align="left" alt="Python" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/python_94570.png" />
 <img align="left" alt="C++" width="32px" src="https://img.icons8.com/color/452/c-plus-plus-logo.png" />
 <img align="left" alt="Java" width="32px" src="https://cdn.icon-icons.com/icons2/81/PNG/256/java_15498.png" />
@@ -17,7 +17,7 @@
 <br/>
 <br/>
 
-## 
+
 <img align="left" alt="Postgresql" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/postgresql_logo_icon_170835.png" />
 <img align="left" alt="MySql" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png" />
 <img align="left" alt="Oracle" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/oracle_logo_icon_168918.png" />
@@ -27,7 +27,7 @@
 <br/>
 <br/>
 
-## 
+
 <img align="left" alt="Windows" width="32px" src="https://cdn.icon-icons.com/icons2/673/PNG/512/windows_icon-icons.com_60494.png" />
 <img align="left" alt="Linux" width="32px" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/linux_original_logo_icon_146433.png" />
 <img align="left" alt="BSD" width="32px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Daemon-phk.svg/220px-Daemon-phk.svg.png" />
