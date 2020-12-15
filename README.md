@@ -37,7 +37,8 @@
     <img align="left" alt="Docker" width="32px" src="https://cdn.icon-icons.com/icons2/2407/PNG/512/docker_icon_146192.png" />
     <img align="left" alt="AWS" width="32px" src="https://cdn.icon-icons.com/icons2/101/PNG/256/aws_socialnetwork_17698.png" />
     <img align="left" alt="GCP" width="32px" src="https://cdn.icon-icons.com/icons2/2642/PNG/512/google_cloud_logo_icon_159333.png" />
-    <img align="left" alt="Ansible" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/ansible_logo_icon_167875.png" />    
+    <img align="left" alt="Ansible" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/ansible_logo_icon_167875.png" />
+    <img align="left" alt="Django" width="32px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png" />    
 <div/>
 
 <br/>
