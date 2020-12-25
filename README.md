@@ -16,6 +16,7 @@
     <img align="left" alt="JavaScript" width="32px" src="https://cdn.icon-icons.com/icons2/2108/PNG/512/javascript_icon_130900.png" />
     <img align="left" alt="Html" width="32px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_html_icon_130541.png" />
     <img align="left" alt="Shell" width="32px" src="https://cdn.icon-icons.com/icons2/39/PNG/128/terminal_Shell_6007.png" />
+    <img align="left" alt="PowerShell" width="32px" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_powershell_icon_130243.png" />
 <div/>
 
 <br/>
