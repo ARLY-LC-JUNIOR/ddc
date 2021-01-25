@@ -11,4 +11,17 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ddc&theme=chartreuse-dark&layout=compact&langs_count=8)
 ![Github stats](https://github-readme-stats.vercel.app/api?username=ddc&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true)
 
+<br/>
+<br/>
 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=DiscordBot&theme=chartreuse-dark)](https://github.com/ddc/DiscordBot)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Gw2Launcher&theme=chartreuse-dark)](https://github.com/ddc/Gw2Launcher)
+
+<br/>
+<br/>
+
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ReshadeUtils&theme=chartreuse-dark)](https://github.com/ddc/ReshadeUtils)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=802.11ad&theme=chartreuse-dark)](https://github.com/ddc/802.11ad)
+
+<br/>
+<br/>
