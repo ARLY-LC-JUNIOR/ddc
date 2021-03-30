@@ -8,6 +8,7 @@
 <br/>
 <br/>
 
+[![trophy](https://github-profile-trophy.vercel.app/?username=ddc&theme=chartreuse-dark)](https://github.com/ryo-ma/github-profile-trophy)
 ![Github stats](https://github-readme-stats.vercel.app/api?username=ddc&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ddc&theme=chartreuse-dark&layout=compact&langs_count=8)
 [![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ddc&theme=chartreuse-dark)](https://wakatime.com/@ddc)
