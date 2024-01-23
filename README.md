@@ -14,8 +14,10 @@
 [![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ddc&theme=chartreuse-dark)](https://wakatime.com/@ddc)
     
 <div/>
- 
+
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=DiscordBot&theme=chartreuse-dark)](https://github.com/ddc/DiscordBot)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ReshadeUtils&theme=chartreuse-dark)](https://github.com/ddc/ReshadeUtils)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Gw2Launcher&theme=chartreuse-dark)](https://github.com/ddc/Gw2Launcher)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=802.11ad&theme=chartreuse-dark)](https://github.com/ddc/802.11ad)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcUtils&theme=chartreuse-dark)](https://github.com/ddc/ddcUtils)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Cryptography&theme=chartreuse-dark)](https://github.com/ddc/Cryptography)
