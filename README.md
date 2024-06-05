@@ -22,4 +22,4 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Gw2Launcher&theme=chartreuse-dark)](https://github.com/ddc/Gw2Launcher)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=802.11ad&theme=chartreuse-dark)](https://github.com/ddc/802.11ad)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcUtils&theme=chartreuse-dark)](https://github.com/ddc/ddcUtils)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Cryptography&theme=chartreuse-dark)](https://github.com/ddc/Cryptography)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcCryptography&theme=chartreuse-dark)](https://github.com/ddc/ddcCryptography)
