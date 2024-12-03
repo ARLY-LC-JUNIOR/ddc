@@ -17,9 +17,14 @@
     
 <div/>
 
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcLogs&theme=chartreuse-dark)](https://github.com/ddc/ddcLogs)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcDatabases&theme=chartreuse-dark)](https://github.com/ddc/ddcDatabases)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=DiscordBot&theme=chartreuse-dark)](https://github.com/ddc/DiscordBot)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ReshadeUtils&theme=chartreuse-dark)](https://github.com/ddc/ReshadeUtils)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Gw2Launcher&theme=chartreuse-dark)](https://github.com/ddc/Gw2Launcher)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=802.11ad&theme=chartreuse-dark)](https://github.com/ddc/802.11ad)
+
+<!--
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcUtils&theme=chartreuse-dark)](https://github.com/ddc/ddcUtils)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcCryptography&theme=chartreuse-dark)](https://github.com/ddc/ddcCryptography)
+-->
