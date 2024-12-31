@@ -17,7 +17,7 @@
     
 <div/>
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcLogs&theme=chartreuse-dark)](https://github.com/ddc/pythonLogs)
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=pythonLogs&theme=chartreuse-dark)](https://github.com/ddc/pythonLogs)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcDatabases&theme=chartreuse-dark)](https://github.com/ddc/ddcDatabases)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=DiscordBot&theme=chartreuse-dark)](https://github.com/ddc/DiscordBot)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ReshadeUtils&theme=chartreuse-dark)](https://github.com/ddc/ReshadeUtils)
