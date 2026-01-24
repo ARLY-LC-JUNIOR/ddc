@@ -5,9 +5,9 @@
 <div/>
 <br/>
 <br/>
--->
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=ddc&theme=juicyfresh)](https://github.com/ryo-ma/github-profile-trophy)
+-->
 
 <div>
     
@@ -28,3 +28,5 @@
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcUtils&theme=chartreuse-dark)](https://github.com/ddc/ddcUtils)
 [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcCryptography&theme=chartreuse-dark)](https://github.com/ddc/ddcCryptography)
 -->
+
+![Profile views](https://komarev.com/ghpvc/?style=plastic&abbreviated=true&username=ddc)
