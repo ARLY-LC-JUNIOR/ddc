@@ -9,24 +9,22 @@
 [![trophy](https://github-profile-trophy.vercel.app/?username=ddc&theme=juicyfresh)](https://github.com/ryo-ma/github-profile-trophy)
 -->
 
+[![trophy](https://github-profile-trophy-fork-two.vercel.app/?username=ddc&theme=juicyfresh)](https://github.com/ryo-ma/github-profile-trophy)
+
 <div>
     
-![Github stats](https://github-readme-stats.vercel.app/api?username=ddc&show_icons=true&theme=chartreuse-dark&include_all_commits=true&count_private=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs?username=ddc&theme=chartreuse-dark&layout=compact&langs_count=8)
-[![wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=ddc&theme=chartreuse-dark)](https://wakatime.com/@ddc)
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+[![wakatime stats](./profile/wakatime.svg)](https://wakatime.com/@ddc)
     
 <div/>
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=pythonLogs&theme=chartreuse-dark)](https://github.com/ddc/pythonLogs)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcDatabases&theme=chartreuse-dark)](https://github.com/ddc/ddcDatabases)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=DiscordBot&theme=chartreuse-dark)](https://github.com/ddc/DiscordBot)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ReshadeUtils&theme=chartreuse-dark)](https://github.com/ddc/ReshadeUtils)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=Gw2Launcher&theme=chartreuse-dark)](https://github.com/ddc/Gw2Launcher)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=802.11ad&theme=chartreuse-dark)](https://github.com/ddc/802.11ad)
+[![ReadMe Card](./profile/pythonLogs.svg)](https://github.com/ddc/pythonLogs)
+[![ReadMe Card](./profile/ddcDatabases.svg)](https://github.com/ddc/ddcDatabases)
+[![ReadMe Card](./profile/DiscordBot.svg)](https://github.com/ddc/DiscordBot)
+[![ReadMe Card](./profile/ReshadeUtils.svg)](https://github.com/ddc/ReshadeUtils)
+[![ReadMe Card](./profile/Gw2Launcher.svg)](https://github.com/ddc/Gw2Launcher)
+[![ReadMe Card](./profile/802_11ad.svg)](https://github.com/ddc/802.11ad)
 
-<!--
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcUtils&theme=chartreuse-dark)](https://github.com/ddc/ddcUtils)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=ddc&repo=ddcCryptography&theme=chartreuse-dark)](https://github.com/ddc/ddcCryptography)
--->
 
 ![Profile views](https://komarev.com/ghpvc/?style=plastic&abbreviated=true&username=ddc)
