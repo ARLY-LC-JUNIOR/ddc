@@ -30,7 +30,7 @@
 [![pythonLogs](assets/pythonLogs.svg)](https://github.com/ddc/pythonLogs)
 [![ddcDatabases](assets/ddcDatabases.svg)](https://github.com/ddc/ddcDatabases)
 [![ddcMacTahoeKde](assets/ddc_mac_tahoe_kde.svg)](https://github.com/ddc/ddcMacTahoeKde)
-[![ddcTheme](assets/ddc_theme.svg)](https://github.com/ddc/ddcTheme)
+[![JetbrainsTheme](assets/jetbrains_theme.svg)](https://github.com/ddc/JetbrainsTheme)
 [![DiscordBot](assets/DiscordBot.svg)](https://github.com/ddc/DiscordBot)
 [![ReshadeUtils](assets/ReshadeUtils.svg)](https://github.com/ddc/ReshadeUtils)
 [![Gw2Launcher](assets/Gw2Launcher.svg)](https://github.com/ddc/Gw2Launcher)
