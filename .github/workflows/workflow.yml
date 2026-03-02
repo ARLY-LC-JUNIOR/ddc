@@ -51,44 +51,58 @@ jobs:
             docker rm streak
 
       - name: Generate readme stats cards
-        continue-on-error: true
-        run: |
-          if [ ! -d /tmp/github-readme-stats ]; then
-            git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/github-readme-stats
-          fi
-          (cd /tmp/github-readme-stats && npm install --ignore-scripts)
-          PAT_1=${{ secrets.GH_PAT }} node /tmp/github-readme-stats/express.js &
-          for i in $(seq 1 30); do
-            curl -s -o /dev/null http://localhost:9000/api && break
-            sleep 1
-          done
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 5
+          max_attempts: 3
+          shell: bash
+          command: |
+            if [ ! -d /tmp/github-readme-stats ]; then
+              git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/github-readme-stats
+            fi
+            (cd /tmp/github-readme-stats && npm install --ignore-scripts)
+            PAT_1=${{ secrets.GH_PAT }} PAT_2=${{ secrets.GITHUB_TOKEN }} node /tmp/github-readme-stats/express.js &
+            for i in $(seq 1 30); do
+              curl -s -o /dev/null http://localhost:9000/api && break
+              sleep 1
+            done
 
-          OWNER="${{ github.repository_owner }}"
-          THEME="chartreuse-dark"
-          BASE="http://localhost:9000"
+            OWNER="${{ github.repository_owner }}"
+            THEME="chartreuse-dark"
+            BASE="http://localhost:9000"
 
-          curl -sf --retry 3 -o assets/stats.svg "${BASE}/api?username=${OWNER}&show_icons=true&theme=${THEME}&hide_border=true&card_width=800&include_all_commits=true&count_private=true" || true
-          curl -sf --retry 3 -o assets/top-langs.svg "${BASE}/api/top-langs?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&layout=normal&langs_count=10" || true
-          curl -sf --retry 3 -o assets/wakatime.svg "${BASE}/api/wakatime?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&card_height=1000" || true
-          curl -sf --retry 3 -o assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true" || true
+            fetch() {
+              local output="$1" url="$2"
+              echo "Fetching $(basename "$output")..."
+              if curl -f --retry 3 --retry-delay 2 --retry-all-errors --max-time 60 -o "$output" "$url"; then
+                echo "  OK: $(basename "$output")"
+              else
+                echo "  FAILED: $(basename "$output") (exit code $?)"
+              fi
+            }
 
-          declare -A PINS=(
-            ["pythonLogs"]="pythonLogs"
-            ["ddcDatabases"]="ddcDatabases"
-            ["DiscordBot"]="DiscordBot"
-            ["ReshadeUtils"]="ReshadeUtils"
-            ["Gw2Launcher"]="Gw2Launcher"
-            ["802_11ad"]="802.11ad"
-            ["post_install_os"]="post-install-os"
-            ["ddc_mac_tahoe_kde"]="ddcMacTahoeKde"
-            ["jetbrains_theme"]="JetbrainsTheme"
-          )
-          for file in "${!PINS[@]}"; do
-            repo="${PINS[$file]}"
-            curl -sf --retry 3 -o "assets/${file}.svg" "${BASE}/api/pin?username=${OWNER}&repo=${repo}&theme=${THEME}&hide_border=true" || true
-          done
+            fetch assets/stats.svg "${BASE}/api?username=${OWNER}&show_icons=true&theme=${THEME}&hide_border=true&card_width=800&include_all_commits=true&count_private=true"
+            fetch assets/top-langs.svg "${BASE}/api/top-langs?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&layout=normal&langs_count=10"
+            fetch assets/wakatime.svg "${BASE}/api/wakatime?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&card_height=1000"
+            fetch assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true"
 
-          kill %1 2>/dev/null || true
+            declare -A PINS=(
+              ["pythonLogs"]="pythonLogs"
+              ["ddcDatabases"]="ddcDatabases"
+              ["DiscordBot"]="DiscordBot"
+              ["ReshadeUtils"]="ReshadeUtils"
+              ["Gw2Launcher"]="Gw2Launcher"
+              ["802_11ad"]="802.11ad"
+              ["post_install_os"]="post-install-os"
+              ["ddc_mac_tahoe_kde"]="ddcMacTahoeKde"
+              ["jetbrains_theme"]="JetbrainsTheme"
+            )
+            for file in "${!PINS[@]}"; do
+              repo="${PINS[$file]}"
+              fetch "assets/${file}.svg" "${BASE}/api/pin?username=${OWNER}&repo=${repo}&theme=${THEME}&hide_border=true"
+            done
+
+            kill %1 2>/dev/null || true
 
       - name: Commit cards
         run: |
