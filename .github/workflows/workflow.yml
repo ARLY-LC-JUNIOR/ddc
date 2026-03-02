@@ -68,7 +68,7 @@ jobs:
             ["802_11ad"]="802.11ad"
             ["post_install_os"]="post-install-os"
             ["ddc_mac_tahoe_kde"]="ddcMacTahoeKde"
-            ["ddc_theme"]="ddcTheme"
+            ["jetbrains_theme"]="JetbrainsTheme"
           )
           for file in "${!PINS[@]}"; do
             repo="${PINS[$file]}"
