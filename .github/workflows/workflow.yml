@@ -58,6 +58,9 @@ jobs:
           # Wakatime card
           curl -sf --retry 3 -o assets/wakatime.svg "${BASE}/api/wakatime?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&card_height=1000" || true
 
+          # Gist card
+          curl -sf --retry 3 -o assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true" || true
+
           # Pin cards
           declare -A PINS=(
             ["pythonLogs"]="pythonLogs"
@@ -74,9 +77,6 @@ jobs:
             repo="${PINS[$file]}"
             curl -sf --retry 3 -o "assets/${file}.svg" "${BASE}/api/pin?username=${OWNER}&repo=${repo}&theme=${THEME}&hide_border=true" || true
           done
-
-          # Gist card
-          curl -sf --retry 3 -o assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true" || true
 
       - name: Commit cards
         run: |
