@@ -13,6 +13,17 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Generate hexagon stats card
+        continue-on-error: true
+        uses: nick-fields/retry@v3
+        with:
+          timeout_minutes: 3
+          max_attempts: 3
+          shell: bash
+          command: |
+            curl -sf -L -o assets/hexagon-stats.svg "https://stats.hyo.dev/api/github-stats?login=${{ github.repository_owner }}"
+            sed -i 's/#26272D/#000/g; s/stroke:url(#backgroundInnerLineGradient)/stroke:none/g; s/#FFFFFF/#7fff00/g; s/Designed by hyochan//' assets/hexagon-stats.svg
+            
       - name: Generate streak stats card
         uses: nick-fields/retry@v3
         with:
@@ -35,33 +46,28 @@ jobs:
             docker stop streak
             docker rm streak
 
-      - name: Generate hexagon stats card
+      - name: Generate readme stats cards
         continue-on-error: true
         run: |
-          curl -sf -L -o assets/hexagon-stats.svg "https://stats.hyo.dev/api/github-stats?login=${{ github.repository_owner }}"
-          sed -i 's/#26272D/#000/g; s/stroke:url(#backgroundInnerLineGradient)/stroke:none/g; s/#FFFFFF/#7fff00/g; s/Designed by hyochan//' assets/hexagon-stats.svg
+          if [ ! -d /tmp/github-readme-stats ]; then
+            git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/github-readme-stats
+          fi
+          cd /tmp/github-readme-stats && npm install --production
+          PAT_1=${{ secrets.GH_PAT }} node express.js &
+          for i in $(seq 1 30); do
+            curl -s -o /dev/null http://localhost:9000/api && break
+            sleep 1
+          done
 
-      - name: Generate other stats cards
-        continue-on-error: true
-        env:
-          BASE: "https://github-readme-stats.vercel.app"
-        run: |
           OWNER="${{ github.repository_owner }}"
           THEME="chartreuse-dark"
+          BASE="http://localhost:9000"
 
-          # Stats cards
           curl -sf --retry 3 -o assets/stats.svg "${BASE}/api?username=${OWNER}&show_icons=true&theme=${THEME}&hide_border=true&card_width=800&include_all_commits=true&count_private=true" || true
-
-          # Top languages card
           curl -sf --retry 3 -o assets/top-langs.svg "${BASE}/api/top-langs?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&layout=normal&langs_count=10" || true
-
-          # Wakatime card
           curl -sf --retry 3 -o assets/wakatime.svg "${BASE}/api/wakatime?username=${OWNER}&theme=${THEME}&hide_border=true&card_width=800&card_height=1000" || true
-
-          # Gist card
           curl -sf --retry 3 -o assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true" || true
 
-          # Pin cards
           declare -A PINS=(
             ["pythonLogs"]="pythonLogs"
             ["ddcDatabases"]="ddcDatabases"
@@ -77,6 +83,8 @@ jobs:
             repo="${PINS[$file]}"
             curl -sf --retry 3 -o "assets/${file}.svg" "${BASE}/api/pin?username=${OWNER}&repo=${repo}&theme=${THEME}&hide_border=true" || true
           done
+
+          kill %1 2>/dev/null || true
 
       - name: Commit cards
         run: |
