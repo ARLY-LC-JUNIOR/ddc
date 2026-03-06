@@ -126,7 +126,7 @@
       
     <svg width="705" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="705" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="60.28964741820179%">
+      <svg data-testid="lang-progress" width="60.28805626852436%">
         <rect
             height="8"
             fill="#f34b7d"
@@ -145,7 +145,7 @@
       
     <svg width="705" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="705" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="38.523354456369304%">
+      <svg data-testid="lang-progress" width="38.5223377573896%">
         <rect
             height="8"
             fill="#3572A5"
@@ -273,7 +273,7 @@
     </g>
   </g><g transform="translate(0, 320)">
     <g class="stagger" style="animation-delay: 1650ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">Click</text>
+      <text data-testid="lang-name" x="2" y="15" class="lang-name">Kotlin</text>
       <text x="715" y="34" class="lang-name">0.02%</text>
       
     <svg width="705" x="0" y="25">
@@ -281,7 +281,7 @@
       <svg data-testid="lang-progress" width="2%">
         <rect
             height="8"
-            fill="#E4E6F3"
+            fill="#A97BFF"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 1950ms;"
@@ -292,15 +292,15 @@
     </g>
   </g><g transform="translate(0, 360)">
     <g class="stagger" style="animation-delay: 1800ms">
-      <text data-testid="lang-name" x="2" y="15" class="lang-name">Gnuplot</text>
-      <text x="715" y="34" class="lang-name">0.01%</text>
+      <text data-testid="lang-name" x="2" y="15" class="lang-name">Click</text>
+      <text x="715" y="34" class="lang-name">0.02%</text>
       
     <svg width="705" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="705" height="8" fill="#ddd"></rect>
       <svg data-testid="lang-progress" width="2%">
         <rect
             height="8"
-            fill="#f0a9f0"
+            fill="#E4E6F3"
             rx="5" ry="5" x="0" y="0"
             class="lang-progress"
             style="animation-delay: 2100ms;"

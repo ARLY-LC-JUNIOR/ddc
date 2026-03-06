@@ -106,10 +106,10 @@
     <g transform="translate(30, 45)">
       <g transform="translate(0, 0)">
     <g data-testid="primary-lang">
-      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#89e051" />
-      <text data-testid="lang-name" class="gray" x="15">Shell</text>
+      <circle data-testid="lang-color" cx="0" cy="-5" r="6" fill="#A97BFF" />
+      <text data-testid="lang-name" class="gray" x="15">Kotlin</text>
     </g>
-    </g><g transform="translate(51.625, 0)"><g transform="translate(0, 0)">
+    </g><g transform="translate(54.943749999999994, 0)"><g transform="translate(0, 0)">
       <svg
         class="icon"
         y="-12"
