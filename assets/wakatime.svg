@@ -126,11 +126,11 @@
         class="stat"
         x="655"
         y="12.5"
-      >11 hrs 49 mins</text>
+      >8 hrs 18 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="37.79%">
+      <svg data-testid="lang-progress" width="37.56%">
         <rect
             height="8"
             fill="#7fff00"
@@ -149,11 +149,11 @@
         class="stat"
         x="655"
         y="12.5"
-      >6 hrs 22 mins</text>
+      >3 hrs 34 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="20.34%">
+      <svg data-testid="lang-progress" width="16.16%">
         <rect
             height="8"
             fill="#7fff00"
@@ -172,11 +172,11 @@
         class="stat"
         x="655"
         y="12.5"
-      >2 hrs 58 mins</text>
+      >2 hrs 19 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="9.52%">
+      <svg data-testid="lang-progress" width="10.48%">
         <rect
             height="8"
             fill="#7fff00"
@@ -195,11 +195,11 @@
         class="stat"
         x="655"
         y="12.5"
-      >2 hrs 28 mins</text>
+      >2 hrs 10 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="7.91%">
+      <svg data-testid="lang-progress" width="9.86%">
         <rect
             height="8"
             fill="#7fff00"
@@ -213,16 +213,16 @@
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="XML">XML:</text>
+      <text class="stat bold" y="12.5" data-testid="TOML">TOML:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >1 hr 55 mins</text>
+      >1 hr 24 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="6.12%">
+      <svg data-testid="lang-progress" width="6.37%">
         <rect
             height="8"
             fill="#7fff00"
@@ -236,16 +236,16 @@
     </g>
   </g><g transform="translate(0, 125)">
     <g class="stagger" style="animation-delay: 1200ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="TOML">TOML:</text>
+      <text class="stat bold" y="12.5" data-testid="XML">XML:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >1 hr 29 mins</text>
+      >1 hr 15 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="4.76%">
+      <svg data-testid="lang-progress" width="5.66%">
         <rect
             height="8"
             fill="#7fff00"
@@ -259,16 +259,16 @@
     </g>
   </g><g transform="translate(0, 150)">
     <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Kotlin">Kotlin:</text>
+      <text class="stat bold" y="12.5" data-testid="YAML">YAML:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >1 hr 19 mins</text>
+      >44 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="4.21%">
+      <svg data-testid="lang-progress" width="3.38%">
         <rect
             height="8"
             fill="#7fff00"
@@ -282,16 +282,16 @@
     </g>
   </g><g transform="translate(0, 175)">
     <g class="stagger" style="animation-delay: 1500ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="YAML">YAML:</text>
+      <text class="stat bold" y="12.5" data-testid="Kotlin">Kotlin:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >56 mins</text>
+      >26 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
-      <svg data-testid="lang-progress" width="2.99%">
+      <svg data-testid="lang-progress" width="2%">
         <rect
             height="8"
             fill="#7fff00"
@@ -305,12 +305,12 @@
     </g>
   </g><g transform="translate(0, 200)">
     <g class="stagger" style="animation-delay: 1650ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="SQL">SQL:</text>
+      <text class="stat bold" y="12.5" data-testid="JavaScript">JavaScript:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >34 mins</text>
+      >21 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -328,12 +328,12 @@
     </g>
   </g><g transform="translate(0, 225)">
     <g class="stagger" style="animation-delay: 1800ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Docker">Docker:</text>
+      <text class="stat bold" y="12.5" data-testid="Python">Python:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >16 mins</text>
+      >21 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -351,12 +351,12 @@
     </g>
   </g><g transform="translate(0, 250)">
     <g class="stagger" style="animation-delay: 1950ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Image (svg)">Image (svg):</text>
+      <text class="stat bold" y="12.5" data-testid="Docker">Docker:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >13 mins</text>
+      >16 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -374,12 +374,12 @@
     </g>
   </g><g transform="translate(0, 275)">
     <g class="stagger" style="animation-delay: 2100ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Python">Python:</text>
+      <text class="stat bold" y="12.5" data-testid="SQL">SQL:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >11 mins</text>
+      >15 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -397,12 +397,12 @@
     </g>
   </g><g transform="translate(0, 300)">
     <g class="stagger" style="animation-delay: 2250ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Java Properties">Java Properties:</text>
+      <text class="stat bold" y="12.5" data-testid="Image (svg)">Image (svg):</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >10 mins</text>
+      >13 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -420,12 +420,12 @@
     </g>
   </g><g transform="translate(0, 325)">
     <g class="stagger" style="animation-delay: 2400ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="JSON">JSON:</text>
+      <text class="stat bold" y="12.5" data-testid="INI">INI:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >9 mins</text>
+      >8 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -443,12 +443,12 @@
     </g>
   </g><g transform="translate(0, 350)">
     <g class="stagger" style="animation-delay: 2550ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="GitIgnore file">GitIgnore file:</text>
+      <text class="stat bold" y="12.5" data-testid="textmate">textmate:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >7 mins</text>
+      >4 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -466,12 +466,12 @@
     </g>
   </g><g transform="translate(0, 375)">
     <g class="stagger" style="animation-delay: 2700ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="textmate">textmate:</text>
+      <text class="stat bold" y="12.5" data-testid="GitIgnore file">GitIgnore file:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >7 mins</text>
+      >4 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -489,12 +489,12 @@
     </g>
   </g><g transform="translate(0, 400)">
     <g class="stagger" style="animation-delay: 2850ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Other">Other:</text>
+      <text class="stat bold" y="12.5" data-testid="JSON">JSON:</text>
       <text
         class="stat"
         x="655"
         y="12.5"
-      >5 mins</text>
+      >3 mins</text>
       
     <svg width="525" x="110" y="4">
       <rect rx="5" ry="5" x="0" y="0" width="525" height="8" fill="#fff"></rect>
@@ -512,7 +512,7 @@
     </g>
   </g><g transform="translate(0, 425)">
     <g class="stagger" style="animation-delay: 3000ms" transform="translate(25, 0)">
-      <text class="stat bold" y="12.5" data-testid="Batchfile">Batchfile:</text>
+      <text class="stat bold" y="12.5" data-testid="Java Properties">Java Properties:</text>
       <text
         class="stat"
         x="655"
