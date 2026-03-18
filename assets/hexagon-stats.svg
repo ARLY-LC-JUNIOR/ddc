@@ -234,7 +234,7 @@
       <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">15</text>
       <text id="currentStatsNumberTextType2" x="323" y="57.5" class="textCurrentStatsNumberStyle">0</text>
       <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">20</text>
-      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">50</text>
+      <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">52</text>
       <text id="currentStatsNumberTextType5" x="232" y="92.5" class="textCurrentStatsNumberStyle">0</text>
       <text id="currentStatsNumberTextType6" x="232" y="57.5" class="textCurrentStatsNumberStyle">0</text>
   </g>
@@ -256,7 +256,7 @@
     </foreignObject>
   </g>
   <g id="averageText" opacity="0">
-    <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">14</text>
+    <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">15</text>
   </g>
   <g id="textAverageLabel" opacity="0">
     <text x="62" y="72" class="textLabelStyle">Average</text>
@@ -278,7 +278,7 @@
   <animate begin="0.00s" xlink:href="#userNameText" attributeName="opacity" attributeType="XML" dur="0.5s" fill="freeze" from="0" to="1"/>
   <animate begin="0.00s" xlink:href="#titleText" attributeName="opacity" attributeType="XML" dur="0.8s" fill="freeze" from="0" to="1"/>
   <!-- Hexagon Morphing Animation -->
-  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,60.75 284.51,68.25 288.848,78.25 278,92 271.49,75.75 271.49,68.25"/>
+  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,60.68982650848322 284.5985832827319,68.19894923770637 288.76831540535994,78.20407757339785 278,92.46969377770806 271.49,75.75 271.49,68.25"/>
   <animate begin="1.60s" xlink:href="#currentStatsShapeLoading" attributeName="opacity" attributeType="XML" dur="0.4s" fill="freeze" from="1" to="0"/>
   <!-- 6 Stats Animation -->
   <animate begin="1.50s" xlink:href="#statsBaseIcons" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
