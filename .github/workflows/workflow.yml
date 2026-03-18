@@ -94,8 +94,9 @@ jobs:
               ["Gw2Launcher"]="Gw2Launcher"
               ["802_11ad"]="802.11ad"
               ["post_install_os"]="post-install-os"
-              ["ddc_mac_tahoe_kde"]="ddcMacTahoeKde"
+              ["macos_tahoe_kde_theme"]="macOsTahoeKdeTheme"
               ["jetbrains_theme"]="JetbrainsTheme"
+              ["jetbrains_traffic_light_buttons"]="JetbrainsTrafficLightButtons"
             )
             for file in "${!PINS[@]}"; do
               repo="${PINS[$file]}"
