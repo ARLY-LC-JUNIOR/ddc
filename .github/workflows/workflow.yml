@@ -87,16 +87,16 @@ jobs:
             fetch assets/raspfan.svg "${BASE}/api/gist?id=1c2d19f1c932de07f26dc1f02e0ee3ec&theme=${THEME}&hide_border=true"
 
             declare -A PINS=(
-              ["pythonLogs"]="pythonLogs"
+              ["802_11ad"]="802.11ad"
               ["ddcDatabases"]="ddcDatabases"
               ["DiscordBot"]="DiscordBot"
-              ["ReshadeUtils"]="ReshadeUtils"
               ["Gw2Launcher"]="Gw2Launcher"
-              ["802_11ad"]="802.11ad"
-              ["post_install_os"]="post-install-os"
-              ["macos_tahoe_kde_theme"]="macOsTahoeKdeTheme"
               ["jetbrains_theme"]="JetbrainsTheme"
               ["jetbrains_traffic_light_buttons"]="JetbrainsTrafficLightButtons"
+              ["macos_tahoe_kde_theme"]="macOsTahoeKdeTheme"
+              ["post_install_os"]="post-install-os"
+              ["pythonLogs"]="pythonLogs"
+              ["ReshadeUtils"]="ReshadeUtils"
             )
             for file in "${!PINS[@]}"; do
               repo="${PINS[$file]}"
