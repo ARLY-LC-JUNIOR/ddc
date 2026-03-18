@@ -40,6 +40,7 @@
 
 
 # Support
+
 If you find my projects helpful, consider supporting development.
 
 <a href='https://github.com/sponsors/ddc' target='_blank'><img height='24' style='border:0px;height:24px;' src='https://img.shields.io/badge/Sponsor-❤-ea4aaa?style=plastic&logo=github&logoColor=white' border='0' alt='Sponsor on GitHub' /></a>
