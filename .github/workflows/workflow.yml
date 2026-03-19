@@ -61,7 +61,7 @@ jobs:
               git clone --depth 1 https://github.com/anuraghazra/github-readme-stats.git /tmp/github-readme-stats
             fi
             (cd /tmp/github-readme-stats && npm install --ignore-scripts)
-            PAT_1=${{ secrets.GH_PAT }} PAT_2=${{ secrets.GITHUB_TOKEN }} node /tmp/github-readme-stats/express.js &
+            PAT_1=${{ secrets.GH_PAT }} node /tmp/github-readme-stats/express.js &
             for i in $(seq 1 30); do
               curl -s -o /dev/null http://localhost:9000/api && break
               sleep 1
