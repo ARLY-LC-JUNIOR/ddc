@@ -126,7 +126,7 @@
       
     <svg width="705" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="705" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="59.32856714998357%">
+      <svg data-testid="lang-progress" width="59.33379757386199%">
         <rect
             height="8"
             fill="#f34b7d"
@@ -141,11 +141,11 @@
   </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">Python</text>
-      <text x="715" y="34" class="lang-name">38.16%</text>
+      <text x="715" y="34" class="lang-name">38.15%</text>
       
     <svg width="705" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="705" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="38.15971427200198%">
+      <svg data-testid="lang-progress" width="38.15398981126663%">
         <rect
             height="8"
             fill="#3572A5"
