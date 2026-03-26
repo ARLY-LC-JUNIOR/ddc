@@ -246,7 +246,7 @@
       <div xmlns="http://www.w3.org/1999/xhtml" class="ellipsis">
         <ul style="line-height: 1em">
           <li >
-          <span id="userNameText" class="textGithubIDStyle" opacity="0">Daniel Costa</span>
+          <span id="userNameText" class="textGithubIDStyle" opacity="0">Daniel</span>
           </li>
           <li>
           <span id="titleText" class="textSubtitleStyle" opacity="0">github-stats</span>
