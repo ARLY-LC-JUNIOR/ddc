@@ -88,12 +88,13 @@ jobs:
 
             declare -A PINS=(
               ["802_11ad"]="802.11ad"
+              ["caffeine"]="caffeine"
               ["ddcDatabases"]="ddcDatabases"
               ["DiscordBot"]="DiscordBot"
               ["Gw2Launcher"]="Gw2Launcher"
-              ["jetbrains_theme"]="JetbrainsTheme"
-              ["jetbrains_traffic_light_buttons"]="JetbrainsTrafficLightButtons"
-              ["macos_tahoe_kde_theme"]="macOsTahoeKdeTheme"
+              ["JetbrainsTheme"]="JetbrainsTheme"
+              ["JetbrainsTrafficLightButtons"]="JetbrainsTrafficLightButtons"
+              ["macOsTahoeKdeTheme"]="macOsTahoeKdeTheme"
               ["post_install_os"]="post-install-os"
               ["pythonLogs"]="pythonLogs"
               ["ReshadeUtils"]="ReshadeUtils"
