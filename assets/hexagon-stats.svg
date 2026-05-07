@@ -231,7 +231,7 @@
 
   </g>
   <g id="currentStatsNumberText" opacity="0">
-      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">20</text>
+      <text id="currentStatsNumberTextType1" x="279" y="32" class="textCurrentStatsNumberStyle">19</text>
       <text id="currentStatsNumberTextType2" x="323" y="57.5" class="textCurrentStatsNumberStyle">0</text>
       <text id="currentStatsNumberTextType3" x="323" y="92.5" class="textCurrentStatsNumberStyle">38</text>
       <text id="currentStatsNumberTextType4" x="279" y="118" class="textCurrentStatsNumberStyle">53</text>
@@ -256,7 +256,7 @@
     </foreignObject>
   </g>
   <g id="averageText" opacity="0">
-    <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">19</text>
+    <text id="textAverage" x="40" y="76" class="textCurrentAverageStyle" dominant-baseline="middle" text-anchor="middle">18</text>
   </g>
   <g id="textAverageLabel" opacity="0">
     <text x="62" y="72" class="textLabelStyle">Average</text>
@@ -278,7 +278,7 @@
   <animate begin="0.00s" xlink:href="#userNameText" attributeName="opacity" attributeType="XML" dur="0.5s" fill="freeze" from="0" to="1"/>
   <animate begin="0.00s" xlink:href="#titleText" attributeName="opacity" attributeType="XML" dur="0.8s" fill="freeze" from="0" to="1"/>
   <!-- Hexagon Morphing Animation -->
-  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,59.5 284.51,68.25 292.7522,80.5 278,92.75 271.49,75.75 271.49,68.25"/>
+  <animate begin="1.50s" xlink:href="#currentStats" attributeName="points" attributeType="XML" dur="0.5s" fill="freeze" to="278,59.75 284.51,68.25 292.7522,80.5 278,92.75 271.49,75.75 271.49,68.25"/>
   <animate begin="1.60s" xlink:href="#currentStatsShapeLoading" attributeName="opacity" attributeType="XML" dur="0.4s" fill="freeze" from="1" to="0"/>
   <!-- 6 Stats Animation -->
   <animate begin="1.50s" xlink:href="#statsBaseIcons" attributeName="opacity" attributeType="XML" dur="0.2s" fill="freeze" from="0" to="1"/>
