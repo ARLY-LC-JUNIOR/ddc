@@ -88,7 +88,7 @@ jobs:
 
             declare -A PINS=(
               ["802_11ad"]="802.11ad"
-              ["caffeine"]="caffeine"
+              ["pycaffeine"]="pycaffeine"
               ["ddcDatabases"]="ddcDatabases"
               ["DiscordBot"]="DiscordBot"
               ["Gw2Launcher"]="Gw2Launcher"
