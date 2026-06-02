@@ -35,7 +35,7 @@
 [![DiscordBot](assets/DiscordBot.svg)](https://github.com/ddc/DiscordBot)
 [![ReshadeUtils](assets/ReshadeUtils.svg)](https://github.com/ddc/ReshadeUtils)
 [![Gw2Launcher](assets/Gw2Launcher.svg)](https://github.com/ddc/Gw2Launcher)
-[![Caffeine](assets/caffeine.svg)](https://github.com/ddc/caffeine)
+[![pycaffeine](assets/pycaffeine.svg)](https://github.com/ddc/pycaffeine)
 [![802_11ad](assets/802_11ad.svg)](https://github.com/ddc/802.11ad)
 [![post_install_os](assets/post_install_os.svg)](https://github.com/ddc/post-install-os)
 [![raspfan gist](assets/raspfan.svg)](https://gist.github.com/ddc/1c2d19f1c932de07f26dc1f02e0ee3ec)
